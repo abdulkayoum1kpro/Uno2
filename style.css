@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+}
+.main{ width: 100%;
+    min-height: 100vh;
+    display: flex;
+    
+    
+    
+    
+
+}
+.nav ul{
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    
+    
+
+    
+}
+.nav ul li a{text-decoration: none;
+    font-size:1rem;
+   font-weight: bolder;
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+   transition: 0.6s ease-in-out;
+   
+
+}
+.nav ul li a:hover{
+    color: #a30f0f;
+}
+.left-con, .right-con{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+
+}
+.left-con{
+    background: gray;
+    width: 70%;
+    padding-left: 3rem;
+    background: linear-gradient(#808080 ,black);
+    
+}
+.right-con{
+    background: linear-gradient(#a30f0f ,black);
+    width: 30%;
+}
+.icon, .fa-brands{
+    color: #a30f0f;
+    font-size: 1.7rem;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.content{
+    margin-left: 2rem;
+}
+.content h2{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.content span{
+    color: #a30f0f;
+    
+}
+.content h1{
+    color: #f7f7f7;
+    font-size: 3rem;
+}
+.content p{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin-right: 15rem;
+    max-width: 40rem;
+    line-height: 1.5rem;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+.circle:nth-child(1){
+    background: linear-gradient(red, #262525 60%,#ffffff);
+    width: 28rem;
+}
+.circle:nth-child(2){
+   background-image: url(pxfuel.jpg);
+    width: 20rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+}
